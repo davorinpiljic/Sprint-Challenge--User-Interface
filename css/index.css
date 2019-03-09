@@ -144,3 +144,14 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* added css */
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top-nav {
+    display: flex;
+}
