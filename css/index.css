@@ -195,3 +195,22 @@ footer nav a {
 #box-10 {
     background-color: dodgerblue
 }
+
+
+/* about page */
+.header-about {
+    margin-bottom: 20px;
+}
+
+
+.top-about {
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.text-about {
+    margin-bottom: 20px;
+}
