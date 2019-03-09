@@ -168,6 +168,11 @@ footer nav a {
     
 }
 
+.top-nav p a {
+    text-decoration: none;
+    color: black;
+}
+
 .header-index {
     margin-bottom: 20px;
 }
@@ -242,6 +247,7 @@ footer nav a {
 
 .bottom-two {
     display: flex;
+    width: 100%;
 }
 
 #box-about-1 {
@@ -292,4 +298,101 @@ footer nav a {
 .bottom-about {
     margin: 20px 0 40px 0;
     padding: 0 20px 0 20px;
+}
+
+/*contact page */
+.header-contact img {
+    display: flex;
+    width: 800px;
+    margin-bottom: 20px;
+
+}
+
+.top-content-contact {
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding: 0 20px 0 20px;
+}
+
+.top-content-contact p {
+    margin-bottom: 20px;
+}
+
+/* animations */
+.top-nav :hover {
+    animation: changeColor 2s infinite;
+    cursor: pointer;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: black;
+        color: white;
+    }
+}
+
+/* media query */
+
+@media (max-width:600px) {
+    .boxes-about {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* contact form*/
+
+#page-wrap {
+	width: 660px;
+	background: white;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+}
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
 }
