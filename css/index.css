@@ -149,11 +149,27 @@ footer nav a {
 
 .navigation {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 14px;
 }
 
 .top-nav {
     display: flex;
+    align-items: center;
+}
+
+.top-nav p {
+    text-decoration: none;
+    padding: 0 25px 0 25px;
+    margin-right: 30px;
+    
+}
+
+.header-index {
+    margin-bottom: 20px;
 }
 
 #box-1 {
@@ -213,4 +229,67 @@ footer nav a {
 
 .text-about {
     margin-bottom: 20px;
+    padding: 0 20px 0 20px;
+}
+
+.middle-about {
+    padding: 0 20px 0 20px;
+}
+
+.top-two {
+    display: flex;
+}
+
+.bottom-two {
+    display: flex;
+}
+
+#box-about-1 {
+    margin-right: 10px;
+}
+
+#box-about-2 {
+    margin-left: 10px;
+}
+
+#box-about-3 {
+    margin-right: 10px;
+}
+
+#box-about-4 {
+    margin-left: 10px;
+}
+
+.boxes-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box-about {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.box-about p {
+    margin-bottom: 20px;
+}
+
+.box-about img {
+    margin-bottom: 20px;
+}
+
+#button-about {
+    border: solid black 1px;
+    border-radius: 4px;
+    padding: 5px 25px 5px 25px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.bottom-about {
+    margin: 20px 0 40px 0;
+    padding: 0 20px 0 20px;
 }
